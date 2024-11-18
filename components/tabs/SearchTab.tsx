@@ -9,6 +9,7 @@ import { useState } from 'react';
 export const SearchTab = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState<Character[]>([]);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [loading, setLoading] = useState(false);
 
   const searchCharacters = async () => {
